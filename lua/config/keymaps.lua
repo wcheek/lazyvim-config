@@ -19,4 +19,7 @@ end
 
 map("n", "<M-w>", "za", { desc = "Toggle fold" })
 map("v", "<M-w>", "zf", { desc = "Toggle fold" })
-map("n", "<M-q>", "gc", { desc = "Toggle comment" })
+map("n", "<M-q>", "gcc", { desc = "Toggle comment" })
+map("n", "oo", "o<Esc>k", { desc = "Insert new line under" })
+map("n", "OO", "O<Esc>j", { desc = "Insert new line above" })
+map("i", "jj", "<Esc>", { desc = "Leave insert mode" })
