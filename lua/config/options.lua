@@ -8,3 +8,4 @@ opt.foldlevel = 2
 opt.foldmethod = "indent"
 opt.autochdir = true
 opt.colorcolumn = "80"
+opt.redrawtime = 3000
