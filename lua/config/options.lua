@@ -4,8 +4,11 @@
 local opt = vim.opt
 
 opt.foldnestmax = 10
-opt.foldlevel = 2
-opt.foldmethod = "indent"
+-- opt.foldlevel = 2
+-- opt.foldmethod = "indent"
 opt.autochdir = true
 opt.colorcolumn = "80"
 opt.redrawtime = 3000
+
+-- vim.g.lazyvim_python_lsp = "pyright"
+-- vim.g.lazyvim_python_ruff = "ruff_lsp"
