@@ -1,6 +1,6 @@
 return {
   -- { "shaunsingh/nord.nvim" },
-  -- { "Mofiqul/dracula.nvim" },
+  { "Mofiqul/dracula.nvim" },
   -- {
   --   "catppuccin/nvim",
   --   lazy = true,
@@ -136,6 +136,8 @@ return {
   -- {
   --   "projekt0n/github-nvim-theme",
   -- },
+  -- { "loctvl842/monokai-pro.nvim" },
+  -- { "NLKNguyen/papercolor-theme" },
   -- {
   --   "ellisonleao/gruvbox.nvim",
   --   priority = 1000,
@@ -164,18 +166,19 @@ return {
   --     dim_inactive = false,
   --     transparent_mode = false,
   --   },
-  {
-    "folke/tokyonight.nvim",
-    lazy = false,
-    priority = 1000,
-    opts = {
-      style = "moon",
-    },
-  },
+  -- },
+  -- {
+  --   "folke/tokyonight.nvim",
+  --   lazy = false,
+  --   priority = 1000,
+  --   opts = {
+  --     style = "moon",
+  --   },
+  -- },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "dracula",
     },
   },
 }

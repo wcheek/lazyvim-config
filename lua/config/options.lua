@@ -12,3 +12,4 @@ opt.redrawtime = 3000
 
 -- vim.g.lazyvim_python_lsp = "pyright"
 -- vim.g.lazyvim_python_ruff = "ruff_lsp"
+vim.g.lazyvim_prettier_needs_config = false
